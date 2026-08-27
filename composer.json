@@ -1,0 +1,25 @@
+{
+    "name": "vgc/gateway",
+    "description": "VGC Gateway for Riot Vanguard",
+    "require": {
+        "php": ">=8.2",
+        "phpseclib/phpseclib": "^3.0",
+        "google/protobuf": "^3.21"
+    },
+    "config": {
+        "allow-plugins": false,
+        "process-timeout": 2000,
+        "policy": {
+            "advisories": {
+                "block": false
+            }
+        }
+    },
+    "extra": {
+        "advisories": {
+            "ignore": [
+                "PKSA-tcfz-w4fm-hhk9"
+            ]
+        }
+    }
+}
